@@ -1,0 +1,51 @@
+﻿main {
+    width: 25%;
+    height: 100%;
+    margin: auto;
+    background-color: blue;
+    padding:10px 20px ;
+    font-family: Arial;
+    
+}
+body {
+    margin: 0px;
+}
+header{
+    background-color:green;
+    font-family:'Courier New';
+    border:5px solid green;
+}
+footer {
+    background-color: green;
+    border: 5px solid green;
+}
+.shape {
+    width: 80px;
+    height: 80px;
+    background-color: blue;
+    border-radius: 15px 0 15px 0;
+    border: 5px solid white;
+}
+A {
+    color: red; /* Цвет ссылок */
+}
+
+    A:visited {
+        color: red; /* Цвет посещенных ссылок */
+    }
+
+    A:active {
+        color: rgb(125, 0, 0); /* Цвет активных ссылок */
+    }
+
+table, td, th {
+    /* задаем границу для всех элементов */
+    border:solid 2px lightblue;
+}
+
+td, th {
+    /* делаем отступ в ячейках, выставляем выравнивание текста */
+    padding: 10px 14px 2px;
+    text-align: center;
+    vertical-align: bottom;
+}
